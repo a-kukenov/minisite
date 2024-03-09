@@ -20,7 +20,22 @@ body{
     background-color: rgb(43, 43, 43);
     flex-direction: column;
     gap: 5%;
+    padding: 5%;
 }
 span{
     color: rgb(125, 98, 243);
+    font-size: 50px;
+    text-align: center;
+}
+.but{
+    background-color: rgb(125, 98, 243);
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(207, 207, 207);
+    font-size: 40px;
 }

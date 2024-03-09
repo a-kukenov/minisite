@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/calc.css">
+    <link rel="stylesheet" href="styles/lodash.css">
 </head>
 <body>
     <a href="http://localhost:3000" class="back">Назад</a>
-    <span>Калькулятор</span>
+    <span>Функционал Lodash</span>
     <div class="values">
-        <input type="number" name="" class="firstNum">
+        <input type="text" name="" class="array">
         <select class="select">
-            <option value="+">+</option>
-            <option value="-">-</option>
-            <option value="*">*</option>
-            <option value="/">/</option>
+            <option value="sumBy">sumBy</option>
+            <option value="head">head</option>
+            <option value="uniqBy">uniqBy</option>
+            <option value="isEmpty">isEmpty</option>
         </select>
-        <input type="number" name="" class="secondNum">
         =
         <div class="result"></div>
     </div>
     <div class="resultBut">Посчитать</div>
-    <script src="scripts/calc.js"></script>
+    <script type="module" src="scripts/lodash.js"></script>
 </body>
 </html>

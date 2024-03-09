@@ -21,8 +21,8 @@ server.get('/', (req, res) => {
 server.get('/calc', (req, res) => {
     res.sendFile(createPath('calc', 'html'))
 })
-server.get('/settings', (req, res) => {
-    res.sendFile(createPath('settings', 'html'))
+server.get('/lodash', (req, res) => {
+    res.sendFile(createPath('lodash', 'html'))
 })
 server.get('/getcss', (req, res) => {
     res.sendFile(createPath('/styles/main', 'css'))
